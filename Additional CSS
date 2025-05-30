@@ -1,0 +1,534 @@
+.button-wrapper {
+    padding-left: 90px;
+   
+}
+
+.et_pb_gallery_image:hover .et_overlay {
+    z-index: 3;
+    opacity: 1;
+    display: none;
+}
+
+.et-menu-nav {
+    text-align: center;
+    align-items: center;
+}
+
+.et_pb_module .et_pb_gallery.et_pb_gallery_0.et_pb_bg_layout_light.et_pb_gallery_grid{
+	margin-left:20px;
+	margin-right:20px;
+}
+#top-menu li li a {
+	width:202px;
+}
+@media (min-width: 320px) and (max-width: 460px) {
+  .et_pb_text_inner {
+       padding-right: 42px;
+  }
+.et_pb_section.et_pb_section_2.et_section_regular {
+    top: -60px;
+	}
+}
+.nav li ul {
+	width: 1290px;
+	left:-350px;
+}
+/* home page animations  */
+#divi_box {
+    background: transparent;
+    top: -287px;
+   
+}
+/* home page box  */
+.et_pb_tabs_0.et_pb_tabs, .et_pb_tabs_1.et_pb_tabs {
+       border-width: 10px 0px 0px 0px;
+    border-color: #0072ff;
+}
+
+#divi_box .et_pb_tabs_controls.clearfix{
+	display:none;
+}
+
+.divi_three ul.et_pb_tabs_controls.clearfix {
+    display: none;
+}
+
+/* dropdown css */
+
+
+
+/* Parent needs to be relative to anchor the absolutely positioned submenu */
+.menu-item-5163 {
+  position: relative;
+}
+
+/* Make dropdown absolute and full width of screen */
+.menu-item-5163 .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+	height:27vw;
+  margin-left: calc(-75vw + 590%); 
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.menu-item-5182 .sub-menu{
+	position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+	height:11vw;
+	margin-left: calc(-75vw + 330%);
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+@media screen and (min-width: 780px){
+	#rmp_menu_trigger-14701{
+		display:none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.rmp-submenu-depth-1 li a{
+		display:block;
+		padding-left:34px;
+		color:#ffffff;
+	}
+	div#et_mobile_nav_menu {
+    display: none;
+	}
+	#main-header{
+	z-index:2000;
+	}
+	
+}
+@media screen and (max-width: 430px){
+	#rmp_menu_trigger-14701{
+		right:5px !important;
+	}
+}
+@media screen and (max-width: 376px){
+	.logo_container img{
+		width:290px !important;
+	}
+	#rmp_menu_trigger-14701{
+		top:24px;
+	}
+}
+@media screen and (max-width: 321px){
+	.logo_helper{
+		display:none !important;
+	}
+	#rmp_menu_trigger-14701{
+		top:18px;
+	}
+}
+/* Each item gets 25% width to form vertical columns of 4 */
+.menu-item-5163 > .sub-menu > li {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 10px;
+ 
+}
+
+/* Style the links */
+.menu-item-5163 > .sub-menu > li > a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.menu-item-5163 > .sub-menu > li > a:hover {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+
+/*==========================  */
+
+   .entry-title.main_title{
+          display: none;
+        }
+
+#content-area {
+    width: 100% !important;
+    display: block;
+}
+
+#left-area {
+    width: 100% !important;
+    float: none !important;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0 20px;
+}
+
+.project-grid {
+    padding-right: 0;
+}
+/* ====================== */
+/* vendor form css here */
+/* General styles for all labels */
+label {
+    display: inline-block;
+    margin-right: 10px;
+    width: auto;
+}
+
+/* Flexbox layout for the banner images and project images sections */
+.banner-images,
+.project-images,
+.social-links,
+.business-info {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Wraps items on smaller screens */
+}
+
+/* Style for the business info section (business name, logo, email) */
+.business-info {
+    display: flex;
+    justify-content: space-between; /* Distributes items evenly */
+    gap: 20px; /* Adds space between each item */
+    border: 1px solid black; /* Black border around the section */
+    padding: 10px;
+}
+
+/* Ensure file inputs fill available space */
+input[type="file"] {
+    margin: 5px 0;
+    padding: 8px;
+    width: auto;
+    display: inline-block;
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+/* Optional: Adjust submit button styling */
+[submit] {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+[submit]:hover {
+    background-color: #005bb5;
+}
+
+/* Style for social media links section */
+.social-links {
+    justify-content: space-between;
+}
+
+/* Make sure the form takes full width on small screens */
+@media screen and (max-width: 768px) {
+    .banner-images,
+    .project-images,
+    .social-links,
+    .business-info {
+        flex-direction: column;
+    }
+}
+
+/* ================ */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .project-grid {
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .project-grid {
+        padding-right: 230px;
+    }
+}
+
+body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container {
+    padding-top: -58px !important;
+}
+
+.entry-content p {
+    padding-bottom: 0px !important;
+}
+
+body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container {
+    padding-top: 0px !important;
+}
+
+.et_pb_sectionet_pb_section_0et_section_regular{
+	padding-top:0px !important;
+}
+/* sliderbar border */
+@media (min-width: 981px) {
+    #main-content .container:before {
+       display:none;
+    }
+}
+/* css for header */
+@media (max-width: 768px) {
+  .menu-item-5163 > .sub-menu {
+    padding-left: 20px;
+		margin-left:0;
+  }
+}
+
+
+
+/* Contact Form 7 - Simple Styling */
+.wpcf7-form {
+  width: 100%;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.wpcf7-form p {
+  margin-bottom: 20px;
+}
+
+.wpcf7-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.wpcf7-form textarea {
+  resize: vertical;
+}
+
+.wpcf7-form input[type="submit"] {
+  background-color: #0073aa;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+  background-color: #005f8d;
+}
+
+/* Optional: Improve spacing on smaller screens */
+@media (max-width: 600px) {
+  .wpcf7-form {
+    padding: 20px;
+  }
+}
+
+.et_pb_section.et_pb_section_2.et_section_regular {
+    top: -227px;
+}
+
+/* footer  */
+
+#menu-company {
+    display: block;
+}
+
+#menu-services{
+	display: block;
+}
+
+#menu-get-help {
+    display: block;
+}
+
+
+
+.et_pb_section.et_pb_section_2.et_section_regular {
+       top: -274px;
+}
+
+/*  spacing bug in home page  */
+
+@media only screen and (min-width: 768px) {
+    .et_pb_section.et_pb_section_3.et_section_regular {
+        top: -100px;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .et_pb_section.et_pb_section_3.et_section_regular {
+        top: -219px;
+        height: 443px;
+    }
+}
+
+
+/* by plugin pages   */
+
+@media screen and (min-width: 360px) and (max-width: 440px) {
+    .container {
+        width: 100%;
+        padding: 0px !important;
+        margin-left: 0px !important;
+    }
+	
+	.project-card {
+    width: 386px !important;
+    height: 381px !important;
+		margin-bottom:30px;
+}
+	
+	.project-grid{
+		display:block !important;
+	}
+	
+	#business {
+    display: block !important;
+	
+}
+	
+	#submit_review_form{
+	 	width:100% !important;
+	}
+	#other_details{
+		margin-top:10px !important;
+	margin-left:0px !important;
+	}
+	#bussines_details{
+		justify-content:left !important;
+	}
+}
+
+
+/* search bar in mobile*/
+
+@media (max-width: 980px) {
+    div#et_mobile_nav_menu {
+        margin-right: 22px;
+    }
+}
+
+span.star.filled,span.star {
+    display: none;
+}
+
+/*  feature box logo */
+
+
+/*  feature box logo */
+
+.logo_box{
+	    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contractor-header img.logo{
+	width:100% !important;
+	height:100% !important;
+	    object-fit: contain !important;
+}
+
+span.star.filled,span.star {
+    display: none;
+}
+.contractor-header img.logo{
+	    object-fit: contain !important;
+}
+
+#contact_popup_wrapper{
+	display:none;
+}
+
+/* vandor card name and logo */
+
+.contractor-header a{
+	display:flex;
+	gap:20px;
+	align-items:center;
+	
+}
+
+
+
+/* follow button in vandor page */
+
+/* Follow Button Wrapper */
+.follow-vendor-wrapper {
+  margin-top: 20px;
+}
+
+/* Post Title */
+.follow-vendor-wrapper h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Follow Button */
+.follow-vendor-wrapper .follow-btn {
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.follow-vendor-wrapper .follow-btn:hover:not([disabled]) {
+  background-color: #005f8d;
+}
+
+.follow-vendor-wrapper .follow-btn:disabled {
+  cursor: default;
+}
+
+/* Followers Count */
+.follow-vendor-wrapper .followers-count {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
